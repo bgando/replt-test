@@ -1,5 +1,5 @@
 function endsWith(string, searchString) {
-  // implement here
+  return string.slice(string.length - searchString.length) === searchString;
 }
 
 endsWith('Cats are the best!', 'best!') // => true
